@@ -16,12 +16,12 @@
       rel="stylesheet"
       href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"
     />
-    <!--Replace with your tailwind.css once created-->
+
     <link
       href="https://unpkg.com/@tailwindcss/custom-forms/dist/custom-forms.min.css"
       rel="stylesheet"
     />
-    <!--Tailwind Custom Forms - use to standardise form fields - https://github.com/tailwindcss/custom-forms-->
+
 
     <style>
       @import url("https://rsms.me/inter/inter.css");
@@ -41,18 +41,11 @@
         background-color: #f39f86;
         background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
       }
-
-      /* Browser mockup code
- * Contribute: https://gist.github.com/jarthod/8719db9fef8deb937f4f
- * Live example: https://updown.io
- */
-
       .browser-mockup {
         border-top: 2em solid rgba(230, 230, 230, 0.7);
         position: relative;
         height: 60vh;
       }
-
       .browser-mockup:before {
         display: block;
         position: absolute;
@@ -70,12 +63,12 @@
         display: block;
       }
 
-      /* Custom code for the demo */
+
     </style>
   </head>
 
   <body class="gradient leading-relaxed tracking-wide flex flex-col">
-    <!--Nav-->
+    <!--Nav bar-->
     <nav id="header" class="w-full z-30 top-0 text-white py-1 lg:py-6">
       <div
         class="
@@ -136,7 +129,7 @@
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>Menu</title>
+            
               <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
             </svg>
           </button>
@@ -224,7 +217,7 @@
               Та дараах утгуудаас оруулаарай
             </h1>
 
-            <div class="grid grid-cols-6 font-none gap-4">
+            <div class="grid md:grid-cols-6 font-none gap-4 grid-cols-4">
               <div>Хаяг</div>
               <div>Тухай</div>
               <div>Хөтөлбөр</div>
@@ -249,7 +242,7 @@
       </div>
     </div>
 
-    <!-- CHAT BAR BLOCK -->
+    <!-- CHAT BOT HESEG -->
     <div class="chat-bar-collapsible">
       <button id="chat-button" type="button" class="collapsible bg-red-300">
         Чатбот
@@ -265,7 +258,7 @@
           <!-- Message Container -->
           <div class="outer-container">
             <div class="chat-container">
-              <!-- Messages -->
+              <!-- Message -->
               <div id="chatbox">
                 <h5 id="chat-timestamp"></h5>
                 <p id="botStarterMessage" class="botText">
@@ -273,7 +266,7 @@
                 </p>
               </div>
 
-              <!-- User input box -->
+              <!-- Hereglegchiin input -->
               <div class="chat-bar-input-block">
                 <div id="userInput">
                   <input
